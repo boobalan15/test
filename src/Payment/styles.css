@@ -1,0 +1,11 @@
+#payment {
+    font-size: '20px';
+    font-weight: '800';
+    padding-top: '30px';
+    padding-left: '30px';
+}
+
+.custom-row {
+    margin-bottom: -0.5rem;
+    /* You can adjust this value to control the spacing */
+}

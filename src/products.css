@@ -1,0 +1,314 @@
+body {
+  
+    background-color: #F5F2ED;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  
+@media screen and (max-width: 768px) {
+  .header-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .product-image {
+    position: static; /* Adjust as needed for responsiveness */
+    width: 100%;
+    height: auto;
+  }
+}
+  
+  /* products.css */
+  .header-container {
+    position: relative;
+    width: 1280px;
+    height: 520px;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background: #a5be6a;
+  }
+  
+  .product-image {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 140px;
+    left: 817px;
+  }
+
+  .product-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .category{
+    position: absolute;
+    width: auto;
+    height: 56px;
+    top: 700px;
+    left: 310px;
+    border-radius: 10px;
+    /* background: #F5F2ED; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: Montserrat; */
+    font-size: px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap;
+
+  }
+  
+  .main-container {
+    width: calc(100% - 30px);
+    height: 270px;
+    top: 330px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .sub-container {
+    flex: 1;
+    max-width: 304px;
+    flex-basis: 24%;
+    border-radius: 10px;
+    background-color: #F5F2ED;
+    box-shadow: rgba(132, 135, 137, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding: 64px;
+    
+  }
+.category-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  top:50px;
+  border-radius: 10px;
+  background: #F5F2ED;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  white-space: nowrap;
+  
+}
+
+
+    
+
+  .popular-products-container {
+    position: absolute;
+    width: auto;
+    height: 56px;
+    top: 1180px;
+    left: 310px;
+    border-radius: 10px;
+    /* background: #F5F2ED; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: Montserrat; */
+    font-size: px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap; /* Ensures the text stays in a single line */
+  }
+  
+  .single-line-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .pop-wrapper {
+   /* background-color: black; */
+    top: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .popular-container {
+   /* background-color: black; */
+    width: calc(100% - 19px);
+    height: 270px;
+    top: 900px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+  
+  .pop-container {
+    flex: 1;
+    max-width: 304px;
+    flex-basis: calc(25% - 20px);
+    height: auto;
+    border-radius: 10px;
+    background-color: #F5F2ED;
+    box-shadow: rgba(132, 135, 137, 0.48) 6px 2px 16px 0px,
+      rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding: 52px 64px;
+  }
+  
+  .new-container {
+    
+    position: relative;
+    width: 1276px;
+    height: 360px;
+    top: 1350px;
+    left: 50%;
+    border-radius: 10px;
+    background: #FFC6C5;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+  }
+  
+  .new-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .new-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    gap: 9px;
+    /* font-family: Montserrat; */
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 auto; /* Add this to center the title horizontally */
+  }
+  
+  
+  .new-text {
+    /* font-family: Inter; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .new-search-box {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .new-rectangle {
+    width: 491px;
+    height: 38px;
+    padding: 8px 32px;
+    border-radius: 40px;
+    background: #F5F2ED;
+    position: relative;
+  }
+  
+  .new-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .new-oval {
+    width: 124px;
+    height: 38px;
+    padding: 8px 32px;
+    border-radius: 40px;
+    background: #9A97DA;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  
+  .new-search-text {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+   .container-styles {
+    width: 100%;
+    height: 369px;
+    top: 2900px;
+    left: -1px;
+    position: absolute;
+    padding: 60px 80px 60px 80px;
+    gap: 40px;
+    background: #A5BE6A;
+  }
+   
+  
+  .pop-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* background-color: aquamarine; */
+    transition: background-color 0.3s ease; /* Add transition for a smooth effect */
+  }
+  
+  .pop-container:hover {
+    background-color: #F3DBB9; /* Change the color on hover */
+  }
+  
+  .category-container {
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Add position relative to use top property */
+    top: -10px; /* Adjust the value based on how much you want to move it above */
+  }
+  
